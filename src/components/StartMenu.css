@@ -1,0 +1,26 @@
+.card {
+  padding: 2em;
+}
+
+button {
+  margin: 10px;
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  border-color: #ffffff;
+}
+
+.animate {
+  animation: slide-in 0.7s both;
+}
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(1000px);
+  }
+}
