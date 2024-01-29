@@ -7,7 +7,7 @@ function ChessBoard() {
 
   return (
     <>
-        <div className='board-wrapper'>
+        {/* <div className='board-wrapper'> */}
           <div className='board'>
             <div className='column'>
               <div className={(selectedTile == 'a8') ? 'tile black selected-red' : 'tile black'} onClick={() => setSelectedTile('a8')}></div>
@@ -98,7 +98,7 @@ function ChessBoard() {
               <div className={(selectedTile == 'h1') ? 'tile black selected-red' : 'tile black'} onClick={() => setSelectedTile('h1')}></div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
     </>
   );
 } 
